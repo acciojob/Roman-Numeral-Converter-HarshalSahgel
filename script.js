@@ -24,5 +24,5 @@ function convertToRoman(num) {
   return result;
 }
 
-let num = prompt("Enter the number");
-console.log(convertToRoman(num));
+let num = parseInt(prompt("Enter the number"));
+alert(convertToRoman(num));
